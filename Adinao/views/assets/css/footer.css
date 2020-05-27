@@ -1,0 +1,134 @@
+.res-footer{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(248, 248, 248);
+}
+.footer-info{
+    max-width: 110rem;
+    width: 110rem;
+    position: relative;
+    padding: 4.8rem 0px 2.2rem;
+}
+.res-info{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.footer-detail{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.footer-form{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.company{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 18.3333%;
+    padding: 0px;
+}
+.company-title{
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 0px 15px;
+}
+.a-detail{
+    text-decoration: none !important;
+}
+.a-detail-title{
+    font-size: 15px;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin: 10px 0px;
+}
+.foodies{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 19.1667%;
+    padding: 0px;
+}
+.restaurant{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 25%;
+    padding: 0px;
+}
+.for-you{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 16.6667%;
+    padding: 0px;
+}
+.social-link{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 18.3333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.social{
+    display: flex;
+    margin-left: 0.6rem;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.social-icon{
+    margin-right: 0.8rem;
+    text-decoration: none;
+}
+.fb-icon{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: inherit;
+}
+.space-top{
+    margin-top: 10px;
+}
+.app-store{
+    text-decoration: none;
+}
+.app-store-form{
+    width: 13.7rem;
+    height: 4rem;
+    background-image: url(/img/app-store.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.gg-play{
+    text-decoration: none;
+}
+.gg-play-form{
+    width: 13.7rem;
+    height: 4rem;
+    background-image: url(/img/gg-play.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
