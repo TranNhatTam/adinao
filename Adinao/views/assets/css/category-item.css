@@ -1,0 +1,100 @@
+/* #category-item .category-item {
+    width: 265px;
+    height: 185px;
+    background-image: url('https://www.itl.cat/pngfile/big/163-1633532_categories-pancakes-4k.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+.category-item .item-info {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    left : 0;
+    background: #fff;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+} */
+
+#category-item .category-item {
+    margin-bottom: 20px;
+}
+.category-item .category-form{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-cate{
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* max-width: 25%; */
+    padding: 0px 7.5px 10px 0px;
+}
+.item-cate a{
+    text-decoration: none;
+}
+.a-item{
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.item-container{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 24rem;
+}
+.category-container{
+    border-radius: 1.2rem;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+}
+.item-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.item-title{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 1rem 0px 1.6rem;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius: 0px 0px 1.2rem 1.2rem;
+}
+.item-title .title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+.item-name{
+    color: rgb(54, 54, 54);
+    margin: 0px;
+}

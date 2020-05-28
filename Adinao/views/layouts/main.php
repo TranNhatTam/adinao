@@ -38,7 +38,7 @@ AppAsset::register($this);
                 ]) ?>
                 <?= Alert::widget() ?>
 
-                <category-component></category-component>
+                <!-- <category-component></category-component> -->
                 <?= $content ?>
             </div>
         </div>
@@ -53,4 +53,5 @@ AppAsset::register($this);
 
 </html>
 <?php $this->endPage() ?>
+
 <script src="js/app.js"></script>
