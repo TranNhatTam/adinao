@@ -14,9 +14,11 @@ export default {
 
 <style>
 #category-item .category-item {
-    width: 265px;
-    height: 185px;
-    background-image: url('https://www.itl.cat/pngfile/big/163-1633532_categories-pancakes-4k.jpg');
+    /* width: 265px; */
+    width: 100%;
+    /* margin: 0.26vw 0.3125vw; */
+    height: 8.4375vw;
+    background-image: url('/img/category-img.png');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
