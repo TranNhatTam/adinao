@@ -1,7 +1,18 @@
 <template>
     <div id="category-item">
       <div class="category-item">
-        <div class="item-info">Order Food Online</div>
+        <div class="category-form">
+          <div class="item-cate">
+            <a href="" class="a-item">
+              <div class="item-container category-container">
+                <img src="/img/item.png" class="item-img">
+              </div>
+              <div class="item-title">
+                <p class="title item-name">Order Food Online</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 </template>
@@ -13,31 +24,5 @@ export default {
 </script>
 
 <style>
-#category-item .category-item {
-    /* width: 265px; */
-    width: 100%;
-    /* margin: 0.26vw 0.3125vw; */
-    height: 8.4375vw;
-    background-image: url('/img/category-img.png');
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    position: relative;
-    border: 1px solid #ddd;
-}
-.category-item .item-info {
-    position: absolute;
-    width: 100%;
-    height: 35px;
-    bottom: 0;
-    left : 0;
-    background: #fff;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4px 0;
-}
+@import '../../../css/category-item.css';
 </style>
