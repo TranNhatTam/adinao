@@ -38,7 +38,7 @@ AppAsset::register($this);
                 ]) ?>
                 <?= Alert::widget() ?>
 
-                <!-- <category-component></category-component> -->
+                <category-component></category-component>
                 <?= $content ?>
             </div>
         </div>
